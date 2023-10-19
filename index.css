@@ -460,6 +460,7 @@ body{
     font-weight: bold;
   }
   .media_container > img {
+    width: 75%;
     border-radius: 20px;
   }
   
@@ -564,16 +565,31 @@ body{
     padding:30px 0 40px 0;
   }
   .footer_bottom_portion{
+    color: white;
+    width: 95%;
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    gap:10px;
+    gap:5%;
   }
-  .palystore_icon>img{
-    height:40px;
+
+  .playstore_icon{
+    width: 50%;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
   }
+
+  .playstore_icon > img{
+    width: 25%;
+  }
+
   .footer_logo{
     color:white;
-    font-size: 19px;
+    font-size: larger;
+    font-weight: bold;
   }
 
   @media (max-width: 930px) {
@@ -630,7 +646,7 @@ body{
     .nav-menu {
       position: fixed;
       left: -100%;
-      top: 70px;
+      top: -40px;
       gap: 0;
       flex-direction: column;
       background-color: #262626;
@@ -638,7 +654,7 @@ body{
       text-align: center;
       transition: 0.3s;
       margin: 80px 0 0 0;
-      background-color: beige;
+      background-color: rgb(235, 239, 253);
     }
   
     .nav-item {
@@ -661,7 +677,7 @@ body{
     
     .intro_container_image_div {
         margin: auto;
-        width: 65%;
+        width: 75%;
     }
 
     .community_button{
@@ -728,16 +744,15 @@ body{
   }
 
   .club_container2{
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 3%;
+    text-align: center;
   }
-  
-  .onepercentclub_image {
-    height: 500px;
-    width: 570px;
-    background-color: blue;
-    border-radius: 20px;
+
+  .club_container2 > img{
+   width: 80%;
   }
   
   .course_container {
@@ -791,7 +806,7 @@ body{
     font-size: larger;
   }
   .media_container > img {
-    width:90%;
+    width:100%;
   }
 
   .dome_part {
@@ -825,39 +840,33 @@ body{
     width: 90%;
     margin: auto;
   }
+
+  .contact_container > div{
+     justify-content: start;
+  }
   
   .contact_details>p:nth-child(1){
-   font-size: 22px;
+   font-size: small;
    color:black
   }
   
   .contact_details>p:nth-child(2){
-    font-size: 25px;
+    font-size: small;
     font-weight: bold;
-    width:300px;
-   
    }
-  
-   .footer_logo{
-    color:white;
-    font-size: 60px;
+
+   .playstore_icon{
+    width: 50%;
   }
   
-  .palystore_icon>img{
-    height:60px;
-    width:280px;
+  .playstore_icon>img{
+    width: 40%;
   }
-  
+
   .footer_bottom_portion{
-    display:flex;
-    font-size: 30px;
-    flex-wrap: wrap;
-    width:470px;
-    align-items: center;
-    gap:10px;
-    color: white;
-    justify-content: center;
+    border-top: 1px solid white;
   }
+  
   }
 
   @media (max-width:500px){
